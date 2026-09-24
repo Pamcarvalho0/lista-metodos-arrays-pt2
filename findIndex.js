@@ -1,0 +1,14 @@
+// Métodos Arrays Parte 2
+// FindIndex()
+
+const produtos = [
+  { id: 1, nome: "Notebook", preco: 3500, estoque: 5, ativo: true },
+  { id: 2, nome: "Mouse", preco: 80, estoque: 0, ativo: true },
+  { id: 3, nome: "Teclado", preco: 150, estoque: 10, ativo: false },
+  { id: 4, nome: "Monitor", preco: 1200, estoque: 3, ativo: true }
+];
+
+const indiceMonitor = produtos.findIndex((u) => u.id === 4);
+console.log("Índice do usuário ID 4:", indiceMonitor);
+console.log("Elemento encontrado na posição:", produtos[indiceMonitor]);
+console.log("\n");
