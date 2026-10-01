@@ -17,7 +17,7 @@ const totalItens = valores.reduce((acumulador, item) => {
 
 const totalFinal = totalItens + somaTotal;
 
-console.log('Itend do pedido', valores);
+console.log('Itens do pedido', valores);
 console.log(`Subtotal do Itens:R$ ${totalItens.toFixed(2)}`);
 console.log(`Taxa de Entrega:R$ ${somaTotal.toFixed(2)}`);
 console.log(`Total a pagar:R$ ${totalFinal.toFixed(2)}`);
